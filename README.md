@@ -9,5 +9,13 @@ The dataset contain EEG records of 9 volunteers in motor imagery task with the i
 
 ## Models
 
-We used several models: EEGNetLSTM, EEG Conformer and LNN model
-The scores on validation sets respectively: 
+We used several models: 
+**EEG Conformer**          |  **EEGNetLSTM**           |  **LNN**    
+:-------------------------:|:-------------------------:|:-------------------------:
+![image](https://github.com/GribanovDS/Deep-Learning-for-EEG/blob/ed31e7b965d1799f5f9c8b8e3f747beeb9b2f960/EEG_conformer_arch.png)   |  ![image](https://github.com/GribanovDS/Deep-Learning-for-EEG/blob/ed31e7b965d1799f5f9c8b8e3f747beeb9b2f960/EEGNetLSTM_arch.png)   |  ![image](https://github.com/GribanovDS/Deep-Learning-for-EEG/blob/ed31e7b965d1799f5f9c8b8e3f747beeb9b2f960/LNN_arch.png)
+
+EEG Conformerб EEGNetLSTM, and LNN model
+The scores on validation sets respectively:
+* EEG Conformer: 50 epochs, test accuracy 50%
+* EEGNetLSTM: 100 epochs, validation accuracy: 65.93%
+* LNN: 100 epochs, test accuracy: 25%
